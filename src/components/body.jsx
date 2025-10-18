@@ -1,7 +1,7 @@
 import { createBrowserRouter, Outlet } from 'react-router-dom';
 
 import Navbar from "./Header/navbar.jsx";
-import RestCards from "./Cards/Restaurants.jsx"
+import RestCards from "./Cards/Restaurant.jsx"
 import About from "./About.jsx"
 import Help from "./Help.jsx";
 
