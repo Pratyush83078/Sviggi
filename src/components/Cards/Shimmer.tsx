@@ -1,4 +1,4 @@
-import { LOADER } from "/src/utils/constants"
+import { LOADER } from "@/utils/constants"
 const Shimmer = () => (
   <div>
     <div className="h-[340px] w-[100%] bg-[#171a29] center ">

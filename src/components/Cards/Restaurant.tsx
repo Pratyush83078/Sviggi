@@ -1,8 +1,8 @@
-import { MENU_API } from "../../utils/constants";
-import useAPI from "../../utils/useAPI";
+import { MENU_API } from "@/utils/constants";
+import useAPI from "@/utils/useAPI";
 import "./cards.css";
-import RestCard from "./RestaurantsCard.jsx"
-import Shimmer from "./Shimmer.jsx";
+import RestCard from "./RestaurantsCard.tsx"
+import Shimmer from "./Shimmer.tsx";
 const Sections = () => {
   const cardData = useAPI(MENU_API);
   if (cardData == undefined) {

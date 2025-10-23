@@ -1,9 +1,10 @@
 import { createBrowserRouter, Outlet } from 'react-router-dom';
 
-import Navbar from "./Header/navbar.jsx";
-import RestCards from "./Cards/Restaurant.jsx"
-import About from "./About.jsx"
-import Help from "./Help.jsx";
+import Navbar from "./Header/navbar.tsx";
+import RestCards from "./Cards/Restaurant.tsx"
+import About from "./About.tsx"
+import Help from "./Help.tsx";
+// import { FC } from 'react';
 
 const Body = () => (
   <div className="app">
