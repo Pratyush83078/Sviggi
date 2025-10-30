@@ -14,9 +14,9 @@ const Cards = (API) => {
   // console.log(API.API.info);
 
   return (
-    <div className=" w-[240px] rounded-3xl overflow-hidden mr-7 mb-5" >
-      <div className="rest-img-div">
-        <img src={CDN_URL + cloudinaryImageId} alt="Food" className=" w-[240px] h-[160px] object-cover" />
+    <div className=" w-[239px] rounded-3xl overflow-hidden grow-0 shrink-0" >
+      <div className="rest-img-div w-[240px] h-[160px] ">
+        <img src={CDN_URL + cloudinaryImageId} alt="Food" className="w-[240px] h-[160px] bg-cover object-cover"/>
         <div className="absolute bottom-0 text-white text-xl font-bold">{aggregatedDiscountInfoV3?.subHeader && aggregatedDiscountInfoV3?.header  + " " + aggregatedDiscountInfoV3?.subHeader}</div>
       </div>
       <div className="pl-2">
