@@ -1,7 +1,7 @@
 import { createBrowserRouter, Outlet } from 'react-router-dom';
 
 import Navbar from "./Header/navbar.tsx";
-import RestCards from "./Cards/Restaurant.tsx"
+import RestCards from "./Cards/Restaurants.tsx"
 import About from "./About.tsx"
 import Help from "./Help.tsx";
 // import { FC } from 'react';
