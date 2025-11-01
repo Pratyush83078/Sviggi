@@ -1,6 +1,6 @@
 # Sviggi - A Swiggy Clone
 
-This project is a web application inspired by the popular food delivery service, Swiggy. It's built with a modern tech stack and aims to replicate Swiggy's core functionalities.
+This project is a web application inspired by the popular food delivery service, Swiggy. It's built with a modern tech stack and aims to replicate Swiggy's frontend.
 
 ---
 
