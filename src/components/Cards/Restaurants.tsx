@@ -62,7 +62,7 @@ const Sections = () => {
                     }
                   </div>
                 </div>
-                <hr className="opacity-10 border-1"></hr>
+                <hr className="my-5 opacity-10 border-1"></hr>
               </div>
             )
           }
